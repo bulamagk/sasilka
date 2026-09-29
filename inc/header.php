@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sasilka</title>
+    <title>Sasilka Day Care Center - <?= ucfirst($page) ?></title>
     <link rel="shortcut icon" href="<?= $page !== "home" ? "." : '' ?>./assets/img/site-logo.webp"
         type="image/x-icon" />
     <link rel="stylesheet" href="<?= $page !== "home" ? "." : '' ?>./assets/css/style.css" />
