@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sasilka</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/site-logo.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <nav>
+      <section class="container">
+        <section class="navbar">
+          <section class="brand">
+            <a class="brand-logo" href="#">
+              <img src="./assets/img/site-logo.webp" alt="Site Logo" />
+            </a>
+            <p class="brand-text">Sasilka Day Care Center</p>
+          </section>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a class="active" href="./programs.html">Programs</a></li>
+            <li><a href="./get-involved.html">Get Involved</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <section onclick="toggleMenu()" class="hamburger-menu">
+            <img src="./assets/img/hamburger-menu.svg" alt="" />
+          </section>
+        </section>
+      </section>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <section class="container">
+        <h1 class="hero-title">What We Offer</h1>
+        <p class="hero-description">
+          Every day at Sasilka is built around three simple things: nourishment,
+          company, and joy.
+        </p>
+      </section>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="section auto-height">
+      <section class="container">
+        <h2 class="section-title">Our Programs</h2>
+        <section class="grid-section">
+          <section class="grid-item">
+            <h3 class="sub-heading">Meals</h3>
+            <p class="section-text">
+              Daily meals shared together, in good company.
+            </p>
+          </section>
+          <section class="grid-item">
+            <h3 class="sub-heading">Activities</h3>
+            <p class="section-text">
+              Cheerful, engaging activities suited to our elders' interests and
+              abilities.
+            </p>
+          </section>
+          <section class="grid-item">
+            <h3 class="sub-heading">Community</h3>
+            <p class="section-text">
+              A social space to talk, laugh, and simply be with others.
+            </p>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <section onclick="toggleMenu()" class="backdrop transition"></section>
+    <footer class="footer">
+      <section class="container">
+        <section class="footer-grid">
+          <ul>
+            <li>Sasilka Day Care Center</li>
+            <li>
+              Adjacent Chamber, Garkida, Gombi LGA, Adamawa State, Nigeria
+            </li>
+            <li><a href="tel:+234 706 507 7388">+234 706 507 7388</a></li>
+            <li><a href="tel:+44 7851 308939">+44 7851 308939</a></li>
+            <li>
+              <a href="mailto:support@sasilka.org.ng">support@sasilka.org.ng</a>
+            </li>
+          </ul>
+          <ul>
+            <li><b>Follow Us</b></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </section>
+      </section>
+      <p class="text-center">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Sasilka Day Care Center. All rights reserved.
+      </p>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
